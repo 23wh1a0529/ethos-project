@@ -78,7 +78,6 @@ ethos/
 cd ethos/backend
 npm install
 cp .env.example .env
-# Edit .env if needed
 node seed.js          # Seeds demo data
 npm run dev           # Starts on port 5000
 ```
